@@ -6,7 +6,7 @@ CREATE TABLE "Supplier" (
     CONSTRAINT "Supplier_pkey" PRIMARY KEY ("id")
 );
 
--- CreateTable
+
 CREATE TABLE "Product" (
     "id" SERIAL NOT NULL,
     "name" VARCHAR(255) NOT NULL,
